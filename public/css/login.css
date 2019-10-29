@@ -25,8 +25,9 @@
 	border: 1px solid #222;
 	outline: none;
 	background: transparent;
-	width: 75%;
-	height: 55px;
+	width: 60%;
+	border-radius: 10px;
+	height: 40px;
 	padding-left: 7px;
 }
 
@@ -42,14 +43,16 @@
 	border: 1px solid #222;
 	outline: none;
 	background: transparent;
-	width: 75%;
-	height: 55px;
+	width: 60%;
+	border-radius: 10px;
+	height: 40px;
 	padding-left: 7px;
 }
 
 .submit{
-	width: 75%;
-	height: 55px;
+	width: 60%;
+	border-radius: 10px;
+	height: 40px;
 	/*background: rgba(255, 255, 255, 0.2);*/
 	background: #222;
 	box-shadow: none;
@@ -68,15 +71,16 @@
 .backtohome{
 	display: block;
 	margin: 0px auto;
-	width: 75%;
-	height: 55px;
+	width: 60%;
+	border-radius: 10px;
+	height: 40px;
 	/*background: rgba(255, 255, 255, 0.2);*/
 	background: #222;
 	box-shadow: none;
 	border: none;
 	color: #fff;
 	font-size: 20px;
-	line-height: 55px;
+	line-height: 40px;
 	text-decoration: none;
 
 }
@@ -86,10 +90,10 @@
 	margin: 0px auto;
 	color: #222;
 	background: transparent;
-	width: 350px;
-	height: 330px;
+	width: 300px;
+	height: 300px;
 	background: rgba(255, 255, 255, 0.2);
-    padding: 40px 20px;
+    padding: 20px 10px;
     text-align: center;
     border: 1px solid #ddd;
     border-bottom-left-radius: 5px;
@@ -104,8 +108,8 @@
 	margin: 0px auto;
 	color: #222;
 	background: transparent;
-	width: 350px;
-	height: 40px;
+	width: 300px;
+	height: 30px;
 	background: rgba(255, 255, 255, 0.2);
     padding: 40px 20px;
     text-align: center;
@@ -176,11 +180,11 @@
 	margin-top: 0px;
 	margin-bottom: 15px;
 }
-	
-} 
+
+}
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) 
+@media only screen and (min-width: 600px)
 {
 
 .loginform{
@@ -223,10 +227,10 @@
 	margin-top: 0px;
 	margin-bottom: 15px;
 }
-} 
+}
 
 /* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) 
+@media only screen and (min-width: 768px)
 {
 .loginform{
 	display: block;
@@ -268,9 +272,9 @@
 	margin-top: 0px;
 	margin-bottom: 15px;
 }
-} 
+}
 
-@media only screen and (min-width: 820px) 
+@media only screen and (min-width: 820px)
 {
 .loginform{
 	display: block;
@@ -315,15 +319,15 @@
 }
 }
 
-@media only screen and (min-width: 900px) 
+@media only screen and (min-width: 900px)
 {
 .loginform{
 	display: block;
 	margin: 0px auto;
 	color: #222;
 	background: transparent;
-	width: 750px;
-	height: 450px;
+	width: 550px;
+	height: 400px;
 	background: rgba(255, 255, 255, 0.2);
     padding: 40px 20px;
     text-align: center;
@@ -339,8 +343,8 @@
 	margin: 0px auto;
 	color: #222;
 	background: transparent;
-	width: 750px;
-	height: 40px;
+	width: 550px;
+	height: 35px;
 	background: rgba(255, 255, 255, 0.2);
     padding: 40px 20px;
     text-align: center;
@@ -354,21 +358,19 @@
     font-weight: bold;
     font-size: 23px;
 }
-
 .name{
-	margin-top: 40px;
+	margin-top: 10px;
 	margin-bottom: 20px;
 }
 
 
 .password{
-	margin-bottom: 45px;
+	margin-bottom: 25px;
 }
 
 .submit{
-	margin-bottom: 30px;
+	margin-bottom: 15px;
 }
-
 
 }
 /* Large devices (laptops/desktops, 992px and up) */
@@ -379,8 +381,8 @@
 	margin: 0px auto;
 	color: #222;
 	background: transparent;
-	width: 750px;
-	height: 450px;
+	width: 550px;
+	height: 400px;
 	background: rgba(255, 255, 255, 0.2);
     padding: 40px 20px;
     text-align: center;
@@ -395,8 +397,8 @@
 	margin: 0px auto;
 	color: #222;
 	background: transparent;
-	width: 750px;
-	height: 40px;
+	width: 550px;
+	height: 35px;
 	background: rgba(255, 255, 255, 0.2);
     padding: 40px 20px;
     text-align: center;
@@ -413,19 +415,18 @@
 
 
 .name{
-	margin-top: 40px;
+	margin-top: 10px;
 	margin-bottom: 20px;
 }
 
 
 .password{
-	margin-bottom: 45px;
+	margin-bottom: 25px;
 }
 
 .submit{
-	margin-bottom: 30px;
+	margin-bottom: 15px;
 }
-
 
 }
 
@@ -439,8 +440,8 @@
 	margin: 0px auto;
 	color: #222;
 	background: transparent;
-	width: 750px;
-	height: 450px;
+	width: 550px;
+	height: 400px;
 	background: rgba(255, 255, 255, 0.2);
     padding: 40px 20px;
     text-align: center;
@@ -455,8 +456,8 @@
 	margin: 0px auto;
 	color: #222;
 	background: transparent;
-	width: 750px;
-	height: 40px;
+	width: 550px;
+	height: 35px;
 	background: rgba(255, 255, 255, 0.2);
     padding: 40px 20px;
     text-align: center;
@@ -471,35 +472,33 @@
     font-size: 23px;
 }
 
-
 .name{
-	margin-top: 40px;
+	margin-top: 10px;
 	margin-bottom: 20px;
 }
 
 
 .password{
-	margin-bottom: 45px;
+	margin-bottom: 25px;
 }
 
 .submit{
-	margin-bottom: 30px;
+	margin-bottom: 15px;
+}
+
 }
 
 
-}
 
-
-
-@media only screen and (min-width: 1600px) 
+@media only screen and (min-width: 1600px)
 {
 	.loginform{
 	display: block;
 	margin: 0px auto;
 	color: #222;
 	background: transparent;
-	width: 750px;
-	height: 450px;
+	width: 550px;
+	height: 400px;
 	background: rgba(255, 255, 255, 0.2);
     padding: 40px 20px;
     text-align: center;
@@ -514,8 +513,8 @@
 	margin: 0px auto;
 	color: #222;
 	background: transparent;
-	width: 750px;
-	height: 40px;
+	width: 550px;
+	height: 35px;
 	background: rgba(255, 255, 255, 0.2);
     padding: 40px 20px;
     text-align: center;
@@ -531,19 +530,18 @@
 }
 
 .name{
-	margin-top: 40px;
+	margin-top: 10px;
 	margin-bottom: 20px;
 }
 
 
 .password{
-	margin-bottom: 45px;
+	margin-bottom: 25px;
 }
 
 .submit{
-	margin-bottom: 30px;
+	margin-bottom: 15px;
 }
 
 
 }
-
